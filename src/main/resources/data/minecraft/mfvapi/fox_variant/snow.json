@@ -1,0 +1,19 @@
+{
+  "assets": {
+    "awake": "minecraft:entity/fox/fox_snow",
+    "sleeping": "minecraft:entity/fox/fox_snow_sleep"
+  },
+  "baby_assets": {
+    "awake": "minecraft:entity/fox/fox_snow_baby",
+    "sleeping": "minecraft:entity/fox/fox_snow_sleep_baby"
+  },
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#minecraft:spawns_snow_foxes"
+      },
+      "priority": 1
+    }
+  ]
+}

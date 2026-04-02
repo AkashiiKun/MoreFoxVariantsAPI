@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "mvfapi",
+	"version": "${version}",
+	"name": "More Fox Variants API",
+	"description": "Implementation of new fox variants.",
+	"authors": [
+		"AkashiiKun"
+	],
+	"license": "ARR",
+	"icon": "assets/mfvapi/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.akashiikun.mfvapi.MfvInit"
+		]
+	},
+	"mixins": [
+		"mfvapi.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

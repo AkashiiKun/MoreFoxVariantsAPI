@@ -1,0 +1,15 @@
+{
+  "assets": {
+    "awake": "minecraft:entity/fox/fox",
+    "sleeping": "minecraft:entity/fox/fox_sleep"
+  },
+  "baby_assets": {
+    "awake": "minecraft:entity/fox/fox_baby",
+    "sleeping": "minecraft:entity/fox/fox_sleep_baby"
+  },
+  "spawn_conditions": [
+    {
+      "priority": 0
+    }
+  ]
+}
